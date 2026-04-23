@@ -428,7 +428,7 @@
         function startIncorporating() {
           var name = document.getElementById('hero-llc-name').value.trim();
           if (name) localStorage.setItem('heroLlcName', name);
-          window.location.href = 'start.html';
+          window.location.href = '/Formio/start/';
         }
         document.addEventListener('keydown', function(e) {
           if (e.key === 'Enter' && document.activeElement && document.activeElement.id === 'hero-llc-name') {
